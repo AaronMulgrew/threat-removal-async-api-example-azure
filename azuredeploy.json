@@ -137,6 +137,14 @@
                             "value": "~12"
                         },
                         {
+                            "name": "use32BitWorkerProcess",
+                            "value": false
+                        },
+                        {
+                            "name": "FUNCTIONS_WORKER_PROCESS_COUNT",
+                            "value": 7
+                        },
+                        {
                             "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
                             "value": "[reference(resourceId('microsoft.insights/components/', variables('appInsightsName')), '2015-05-01').InstrumentationKey]"
                         },
